@@ -1,0 +1,453 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    scroll-behavior: smooth;
+}
+
+
+.navbar {
+    background: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    position: fixed; 
+    top: 0;
+    z-index: 999; 
+    padding: 10px;
+    padding-left: 525px;
+
+}
+
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar a {
+    font-family: 'alike';
+    color: #ffffff;
+    font-style: bold;
+    font-size: 24px;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    text-shadow: 2px 2px black;
+}
+
+.navbar a:hover {
+    background-color: #0000005b;
+}
+
+.frontImageContainer{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.frontImageContainer img {
+    width: 100vw;   
+    height: 100vh;  
+    display: block;
+    object-fit: cover;
+}
+
+.companyName {
+    font-family: 'aboreto';
+    font-weight: lighter;
+    position: absolute;
+    color: #ffffff;
+    font-size: 50px;
+    text-align: center;
+    top: 42%;
+    left: 11%;
+}
+
+.lowerCompanyName {
+    font-family: 'alike';
+    position: absolute;
+    color: #5c5a50;
+    font-size: 25px;
+    font-weight: 550;
+    text-align: center;
+    top: 48%;
+    left: 15%;
+}
+
+
+.aboutUs {
+    background: url(assets/backgroundAboutUsCloud.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 60vw;
+}
+.innerAboutUsContainer {
+    display: flex;
+    position: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1200px;
+    height: 500px;
+}
+.aboutUsImageContainer {
+    width: 65%;
+    height: 100%;
+}
+.aboutUsImageContainer img {
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.aboutUsTextContainer {
+    padding-left: 10px;
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    padding-top: 45px;
+}
+.aboutUsTextHeader {
+    font-family: 'aboreto';
+}
+.aboutUsBlurb {
+    font-family: 'alike';
+    font-size: 17px;
+}
+.menu {
+    color: #5c5a50;
+    height: 70vw;
+    font-family: 'aboreto';
+    padding-left: 10px;
+}
+
+.menuHeader {
+    text-align: center;
+    padding-right: 20px;
+}
+
+.menuContainer {
+    position: relative;
+    display: inline-block;
+    width: 1500px;
+    
+}
+.courseHeader {
+    text-align: center;
+    font-size: 25px;
+}
+.breakfastContainer {
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+}
+.bfOne {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.bfOneImage {
+  width: 16.5vw;
+  height: 20vw;
+}
+.bfOneImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.bfOneText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.bfOneText h3,
+.bfOneText p {
+    text-align: center;
+    width: 100%;
+}
+.bfTwo {
+    width: 33vw;
+    height: 20vw; 
+    display: flex;
+}
+.bfTwoImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.bfTwoImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.bfTwoText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.bfTwoText h3,
+.bfTwoText p {
+    text-align: center;
+    width: 100%;
+}
+.bfThree {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.bfThreeImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.bfThreeImage img {
+    width: 250px;
+    height: 250px;
+}
+.bfThreeText {
+     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.bfThreeText h3,
+.bfThreeText p {
+    text-align: center;
+    width: 100%;
+}
+.lunchContainer {
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+    padding-right: 50px;
+}
+.lOne {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.lOneImage {
+  width: 16.5vw;
+  height: 20vw;
+}
+.lOneImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.lOneText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+
+.lOneText h3,
+.lOneText p {
+    text-align: center;
+    width: 100%;
+}
+.lTwo {
+    width: 33vw;
+    height: 20vw; 
+    display: flex;
+}
+.lTwoImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.lTwoImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.lTwoText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.lTwoText h3,
+.lTwoText p {
+    text-align: center;
+    width: 100%;
+}
+.lThree {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.lThreeImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.lThreeImage img {
+    width: 250px;
+    height: 250px;
+}
+.lThreeText {
+     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.lThreeText h3,
+.lThreeText p {
+    text-align: center;
+    width: 100%;
+}
+.dessertContainer {
+    width: 100vw;
+    height: 20vw;
+    display: flex;
+}
+.dOne {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.dOneImage {
+  width: 16.5vw;
+  height: 20vw;
+}
+.dOneImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.dOneText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+
+.dOneText h3,
+.dOneText p {
+    text-align: center;
+    width: 100%;
+}
+.dTwo {
+    width: 33vw;
+    height: 20vw; 
+    display: flex;
+}
+.dTwoImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.dTwoImage img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+}
+.dTwoText {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.dTwoText h3,
+.dTwoText p {
+    text-align: center;
+    width: 100%;
+}
+.dThree {
+    width: 33vw;
+    height: 20vw;
+    display: flex;
+}
+.dThreeImage {
+    width: 16.5vw;
+    height: 20vw;
+}
+.dThreeImage img {
+    width: 250px;
+    height: 250px;
+}
+.dThreeText {
+     justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 16.5vw;
+    height: 20vw;
+}
+.dThreeText h3,
+.dThreeText p {
+    text-align: center;
+    width: 100%;
+}
+
+
+.contact {
+    background-color: black;
+    object-fit: cover;
+    height: 20vw;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.contactUs {
+    font-family: 'aboreto';
+    color: white;
+    text-align: center;
+}
+.contactContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'alike';
+    padding-right: 115px;
+}
+
+.resturantInfoContainer  {
+    float: left;
+    color: white;
+    text-align: center;
+}
+.reachOutContainer {
+    width: 300px;
+    float: left;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+}
+.socialMediaContainer {
+    color: white;
+    float: left;
+    text-align: center;
+}
+.fa {
+    width: 1px;
+    text-decoration: none;
+    margin: 5px 8px;
+    padding-bottom: 80px;
+}
+
